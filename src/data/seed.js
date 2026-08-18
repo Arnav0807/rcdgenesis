@@ -30,27 +30,27 @@ export const seedBoard = [
 ]
 
 export const seedMembers = [
-  { id:'m-1',  firstName:'Arnav',  lastName:'Arvind',      city:'New Delhi, DL', since:'Jul 2023', role:'President' },
-  { id:'m-2',  firstName:'Aksh',   lastName:'Bains',       city:'Noida, UP',     since:'Jul 2023', role:'' },
-  { id:'m-3',  firstName:'Rachit', lastName:'Bakshi',      city:'New Delhi, DL', since:'Jul 2023', role:'Past President · 2024–25' },
-  { id:'m-4',  firstName:'Tushar', lastName:'Chandna',     city:'New Delhi, DL', since:'Oct 2025', role:'' },
-  { id:'m-5',  firstName:'Diksha', lastName:'Gera',        city:'New Delhi, DL', since:'May 2025', role:'Secretary' },
-  { id:'m-6',  firstName:'Kshitij',lastName:'Grover',      city:'New Delhi, DL', since:'Oct 2025', role:'' },
-  { id:'m-7',  firstName:'Nupur',  lastName:'Kapoor',      city:'Gurgaon, HR',   since:'May 2025', role:'First Lady · 2025–26' },
-  { id:'m-8',  firstName:'Rahul',  lastName:'Kapoor',      city:'Gurugram, HR',  since:'Oct 2023', role:'Past President · 2025–26' },
-  { id:'m-9',  firstName:'Mayank', lastName:'Rustagi',     city:'New Delhi, DL', since:'Jul 2023', role:'Charter President' },
-  { id:'m-10', firstName:'Shruti', lastName:'Shivakumar',  city:'New Delhi, DL', since:'Jul 2025', role:'' },
-  { id:'m-11', firstName:'Ridhima',lastName:'Thukral',     city:'New Delhi, DL', since:'May 2025', role:'First Lady · 2023–24' },
-  { id:'m-12', firstName:'Jai',    lastName:'Verdhan',     city:'Ghaziabad, UP', since:'Dec 2023', role:'' },
-  { id:'m-13', firstName:'Akshit', lastName:'Verma',       city:'New Delhi, DL', since:'Jul 2023', role:'' },
-  { id:'m-14', firstName:'Puneet', lastName:'Virmani',     city:'Gurgaon, HR',   since:'May 2025', role:'' },
+  { id:'m-1',  firstName:'Arnav',  lastName:'Arvind',     city:'New Delhi, DL', since:'Jul 2023', role:'President' },
+  { id:'m-2',  firstName:'Aksh',   lastName:'Bains',      city:'Noida, UP',     since:'Jul 2023', role:'' },
+  { id:'m-3',  firstName:'Rachit', lastName:'Bakshi',     city:'New Delhi, DL', since:'Jul 2023', role:'Past President · 2024–25' },
+  { id:'m-4',  firstName:'Tushar', lastName:'Chandna',    city:'New Delhi, DL', since:'Oct 2025', role:'' },
+  { id:'m-5',  firstName:'Diksha', lastName:'Gera',       city:'New Delhi, DL', since:'May 2025', role:'Secretary' },
+  { id:'m-6',  firstName:'Kshitij',lastName:'Grover',     city:'New Delhi, DL', since:'Oct 2025', role:'' },
+  { id:'m-7',  firstName:'Nupur',  lastName:'Kapoor',     city:'Gurgaon, HR',   since:'May 2025', role:'First Lady · 2025–26' },
+  { id:'m-8',  firstName:'Rahul',  lastName:'Kapoor',     city:'Gurugram, HR',  since:'Oct 2023', role:'Past President · 2025–26' },
+  { id:'m-9',  firstName:'Mayank', lastName:'Rustagi',    city:'New Delhi, DL', since:'Jul 2023', role:'Charter President' },
+  { id:'m-10', firstName:'Shruti', lastName:'Shivakumar', city:'New Delhi, DL', since:'Jul 2025', role:'' },
+  { id:'m-11', firstName:'Ridhima',lastName:'Thukral',    city:'New Delhi, DL', since:'May 2025', role:'First Lady · 2023–24' },
+  { id:'m-12', firstName:'Jai',    lastName:'Verdhan',    city:'Ghaziabad, UP', since:'Dec 2023', role:'' },
+  { id:'m-13', firstName:'Akshit', lastName:'Verma',      city:'New Delhi, DL', since:'Jul 2023', role:'' },
+  { id:'m-14', firstName:'Puneet', lastName:'Virmani',    city:'Gurgaon, HR',   since:'May 2025', role:'' },
 ]
 
 export const seedActivities = [
-  { id:'a-1', kind:'fellowship', title:'Fellowship Dinner',        when:'Add date', photo:'/images/fellowship-1.jpg', description:'Replace this with a short description — who hosted, where it was held, and what made the evening memorable.' },
-  { id:'a-2', kind:'fellowship', title:"Founders' Day Gathering",  when:'Add date', photo:'/images/fellowship-2.jpg', description:'Replace this with a short description of the event, including any guests or traditions worth noting.' },
-  { id:'a-3', kind:'assembly',   title:'Club Assembly',            when:'Add date', photo:'/images/assembly-1.jpg',   description:"Replace this with the assembly's agenda, attendance, or key decisions made." },
-  { id:'a-4', kind:'assembly',   title:'Mid-Year Review Assembly', when:'Add date', photo:'/images/assembly-2.jpg',   description:"Replace this with a short summary of what was reviewed and what's planned next." },
+  { id:'a-1', kind:'fellowship', title:'Fellowship Dinner',         when:'Add date', photo:'/images/fellowship-1.jpg', description:'Replace this with a short description — who hosted, where it was held, and what made the evening memorable.' },
+  { id:'a-2', kind:'fellowship', title:"Founders' Day Gathering",   when:'Add date', photo:'/images/fellowship-2.jpg', description:'Replace this with a short description of the event, including any guests or traditions worth noting.' },
+  { id:'a-3', kind:'assembly',   title:'Club Assembly',             when:'Add date', photo:'/images/assembly-1.jpg',   description:"Replace this with the assembly's agenda, attendance, or key decisions made." },
+  { id:'a-4', kind:'assembly',   title:'Mid-Year Review Assembly',  when:'Add date', photo:'/images/assembly-2.jpg',   description:"Replace this with a short summary of what was reviewed and what's planned next." },
   { id:'a-5', kind:'project',    title:'Community Service Project', when:'Add date', photo:'/images/project-1.jpg',   description:"Replace this with the project's focus area, location, beneficiaries, and outcomes." },
   { id:'a-6', kind:'project',    title:'Health Camp / Donation Drive', when:'Add date', photo:'/images/project-2.jpg', description:"Replace this with a short description of the cause supported and the club's contribution." },
 ]
@@ -66,10 +66,8 @@ export const seedFocusAreas = [
 ]
 
 export const seedPresidentMessage = {
-  enabled: false,
-  showAsPopup: false,
-  name: 'Arnav Arvind',
-  title: 'President, 2026 – 27',
+  enabled: false, showAsPopup: false,
+  name: 'Arnav Arvind', title: 'President, 2026 – 27',
   message: "Welcome to the Rotary Club of Delhi Genesis. We're a young club with a simple belief — that service, done consistently and with real friendship behind it, is what changes communities. Thank you for visiting, and I hope you'll consider joining us.",
   photo: null,
 }

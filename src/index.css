@@ -24,3 +24,6 @@ body { margin: 0; background-color: var(--color-bone); color: #1c2430; font-fami
   height: 4px; width: 100%; border-radius: 2px;
   background: linear-gradient(90deg, var(--color-ink) 0%, var(--color-rose) 38%, var(--color-gold) 62%, var(--color-gold-soft) 100%);
 }
+
+@keyframes spin-wheel { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+.spin-wheel { animation: spin-wheel 1.4s linear infinite; transform-origin: center; }
